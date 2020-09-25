@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+	    {
+            "path" : "pages/index/index",
+            "style" : {
+				"navigationBarTitleText": "页面内容水印"
+			}
+        },{
+			"path": "pages/style/style1",
+			"style" : {
+				"navigationBarTitleText": "样式设计-固定"
+			}
+		},{
+			"path": "pages/style/style2",
+			"style" : {
+				"navigationBarTitleText": "样式设计-随动"
+			}
+		},{
+            "path" : "pages/demo/demo",
+            "style" : {
+				"navigationBarTitleText": "水印实例"
+			}
+        },{
+            "path" : "pages/demo/demo1",
+            "style" : {
+				"navigationBarTitleText": "水印实例-固定水印"
+			}
+        },{
+            "path" : "pages/demo/demo2",
+            "style" : {
+				"navigationBarTitleText": "水印实例-随动水印"
+			}
+        },{
+            "path" : "pages/demo/demo3",
+            "style" : {
+				"navigationBarTitleText": "更多样式效果"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "页面内容水印",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
